@@ -1,0 +1,464 @@
+@media only screen and (max-width:1200px){
+    .main-menu-ul li{
+        font-size: 19px!important;
+    }
+
+    .imgLiLeft,
+    .imgLiRight{
+        width: 23px!important;
+    }
+
+    .home-menu-open{
+        height: 246px!important;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .album-div{
+        background: url("../images/firstAlbum5.png") no-repeat!important;
+        background-position: center center!important;
+    }
+
+    .download-block{
+        padding: 0!important;
+    }
+
+    .mp3-download,
+    .wav-download,
+    .text-download{
+        font-size: 10px!important;
+    }
+
+    .mp3-download i,
+    .wav-download i,
+    .text-download i,
+    .music-lyrics-modal i{
+        margin-left: 4px!important;
+    }
+
+    .music-left-block{
+        padding-right: 0!important;
+        padding-left: 5px!important;
+    }
+
+    .music-right-block{
+        padding-left: 0!important;
+        padding-right: 5px!important;
+    }
+
+    .music-lyrics-modal {
+        font-size: 8px!important;
+    }
+    .music-lyrics-modal:active{
+        line-height: 30px!important;
+    }
+
+    .album{
+        max-width: 82%!important;
+        margin: 20px auto 0!important;
+    }
+
+    #wrapper {
+        width: 90%!important;
+    }
+
+    .audiojs .scrubber{
+        width: 66%!important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .pad{
+        padding: 4% 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-menu-ul li{
+        font-size: 17px!important;
+    }
+
+    .imgLiLeft,
+    .imgLiRight{
+        width: 16px!important;
+    }
+
+    .home-menu-open{
+        height: 195px!important;
+    }
+
+    .main-menu-ul{
+        padding: 1px 0 27px 0!important;
+    }
+
+    .main-menu-ul li{
+        margin-top: 12px!important;
+    }
+
+}
+
+
+@media only screen and (max-width:767px){
+    .footer-left-block{
+        text-align: center;
+        margin-top:10px;
+    }
+
+    .play-mute-block{
+        /*margin-right: -30px;*/
+    }
+
+    .myLogo{
+        margin: 15px 0 10px 15px!important;
+    }
+
+    .my-navbar-button{
+        /*padding: 7px 7px !important;*/
+        /*margin: 12px 21px 0 0!important;*/
+    }
+
+    .my-navbar-button span{
+        width: 16px!important;
+        height: 1px!important;
+    }
+
+    .myTextModal{
+        margin: 0 5%!important;
+    }
+
+    .mp3-download,
+    .wav-download,
+    .text-download,
+    .music-lyrics-modal{
+        font-size: 12px!important;
+        width: 22%!important;
+    }
+
+    .download-block{
+        height: 50px!important;
+        margin-bottom: 50px!important;
+    }
+
+    .main-video{
+        margin-top: 0!important;
+    }
+
+    #wrapper{
+        margin: 100px auto!important;
+        width: 100%!important;
+    }
+
+    .album{
+        margin-bottom: 55px!important;
+    }
+
+    .playlist-form .playlist-songs{
+        display: block!important;
+        max-width: 190px!important;
+        text-align: left!important;
+        margin: 30px auto!important;
+        font-size: 15px!important;
+    }
+
+    .playlist-send-form .send-form{
+        margin-bottom: 40px!important;
+    }
+
+    .playlist-send-form{
+        margin-bottom: 0!important;
+    }
+
+    .check-playlist{
+        margin-bottom: 0!important;
+    }
+
+    .prize-text{
+        margin: 40px auto 60px!important;
+    }
+
+    .prize-row{
+        margin-bottom: 0!important;
+    }
+
+    .wiki-block img{
+        width: 215px!important;
+        margin: 0 0 10px 20px!important;
+    }
+
+    .wiki-p{
+        font-size: 16px!important;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    .music-block-top{
+        margin-top: 60px;
+    }
+
+    #wrapper{
+        /*position: absolute;*/
+        left: 90px;
+        bottom: 0;
+    }
+
+    .play-back{
+        margin:-58px 25px 0 0!important;
+    }
+
+    .play-back + p{
+        margin:-27px 25px 0 0!important;
+    }
+
+    .playlist-form .playlist-songs{
+        float: left;
+        text-align: left;
+
+    }
+
+    .check-playlist{
+        margin-bottom: 70px!important;
+    }
+}
+
+@media only screen and (min-width:560px) and (max-width: 767px){
+    .album{
+        max-width: 55%!important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 870px){
+    .members-ul li{
+        padding: 0 7px!important;
+    }
+}
+
+
+@media only screen and (min-width: 480px){
+    .myHomeHeader{
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+}
+
+@media only screen and (min-width: 374px) and (max-width: 480px){
+    .audiojs .scrubber {
+        width: 67%!important;
+    }
+}
+
+
+@media only screen and (max-width: 560px){
+    .story-p{
+        font-size: 15px!important;
+        padding: 0 12px!important;
+        width: 100%!important;
+        line-height: 33px!important;
+    }
+
+    .members-ul li{
+        padding: 0 10px!important;
+    }
+
+    .upcoming-img + h3{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .myLogo{
+        margin: 15px 0 10px 15px!important;
+    }
+
+    .myFooter {
+        margin-bottom: 0!important;
+    }
+
+    .myHeaderNav,
+    .margin-top{
+        margin-top: 0!important;
+    }
+
+    .myFooterFluid{
+        padding: 0!important;
+    }
+
+
+    .main-menu-block{
+        width: 100%!important;
+    }
+
+    .main-menu-header{
+        width: 100%!important;
+        margin-top: 20px!important;
+    }
+
+    .home-menu-open{
+        margin-bottom: 20px!important;
+    }
+
+    .my-navbar-button{
+        /*margin: 14px 20px 0 0!important;*/
+    }
+
+
+
+    .imgLiRight{
+        margin-right: 22px!important;
+    }
+
+    .imgLiLeft{
+        margin-left: 24px!important;
+    }
+
+    .album-div{
+        background: url("../images/firstAlbum5.png") no-repeat!important;
+        background-position: center center!important;
+    }
+
+    .download-block{
+        padding: 0!important;
+    }
+
+    .mp3-download,
+    .wav-download,
+    .text-download{
+        font-size: 10px!important;
+    }
+
+    .mp3-download i,
+    .wav-download i,
+    .text-download i,
+    .music-lyrics-modal i{
+        margin-left: 4px!important;
+    }
+
+    .music-left-block{
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+
+    .music-right-block{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+
+    .music-lyrics-modal {
+        font-size: 8px!important;
+    }
+    .music-lyrics-modal:active{
+        line-height: 30px!important;
+    }
+
+    .music-text-h4{
+        font-size: 16px!important;
+    }
+
+    .music-text{
+        font-size: 10px!important;
+    }
+
+    #wrapper {
+        position: relative;
+        width: 100%!important;
+    }
+
+    .player-col{
+        padding: 0!important;
+    }
+
+    .lyrics-pre{
+        font-size: 10px!important;
+    }
+
+    .audiojs .play-pause{
+        padding: 4px 0!important;
+    }
+
+    .audiojs .time{
+        padding: 0 0 0 10px!important;
+    }
+
+    .album{
+        max-width: 85%!important;
+    }
+
+    .player-pad{
+        padding: 0!important;
+    }
+
+    .audiojs{
+        padding: 0 10px!important;
+    }
+
+    .contact-form input{
+        width: 264px!important;
+        height: 42px;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .contact-form textarea{
+        width: 264px!important;
+        padding: 4px 8px;
+        margin-top: 30px;
+    }
+
+    .contact-reset{
+        margin: 50px auto 30px!important;
+    }
+
+    .wiki-block img{
+        width: 100%!important;
+        margin: 0 0 50px 0!important;
+    }
+
+    .wiki-p{
+        font-size: 14px!important;
+        text-align: center;
+    }
+
+    .imgLiRight{
+        margin-top: -17px!important;
+    }
+
+    .members-ul{
+        width: 210px!important;
+        margin: auto!important;
+    }
+
+    .main-menu-ul li{
+        font-size: 15px!important;
+    }
+
+    .members-ul li{
+        font-size: 15px!important;
+        padding: 0 10px!important;
+    }
+
+    .main-menu-ul img[alt="members"]{
+        margin-top: -15px;
+    }
+
+    .members{
+        height: 22px;
+    }
+
+    .lg-prev,
+    .lg-next{
+        display: none!important;
+    }
+
+    .story-div{
+        background-attachment: fixed!important;
+    }
+}
+
+@media only screen and (max-width: 373px){
+    .audiojs .scrubber{
+        width: 60%!important;
+    }
+}

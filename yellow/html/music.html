@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YellowStones</title>
+    <link rel="shortcut icon" href="../images/emblema.png" type="image/png">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--<audio id="sound" src="sound/background-music.mp3" autoplay loop></audio>-->
+
+<header>
+    <div class="container-fluid myHeaderFluid">
+        <div class="row">
+            <div class="col-xs-12 myCol12">
+                <nav class="navbar navbar-inverse myNavbar margin-top myHeaderNav" role="navigation">
+                    <div class="container-fluid">
+                        <a href="../index.html"><img class="myLogo animated bounceIn" src="../images/logo.png"
+                                                     alt="Logo"></a>
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle my-navbar-button" data-toggle="collapse"
+                                    data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="play-mute-block">
+                            <img id="play-back" src="../images/mute4.png" class="img-responsive play-back"
+                                 alt="play-back">
+                            <p id="mute-play">play</p>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul id="myNav" class="nav navbar-nav navbar-right navPadding">
+                                <li><a id="home">Home</a></li>
+                                <li><a class="nav-menu-active">Music</a></li>
+                                <li><a id="video">Video</a></li>
+                                <li><a id="gallery">Gallery</a></li>
+                                <li><a id="contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <audio id="go-link" src="../sound/go-link.mp3"></audio>
+</header>
+
+<main>
+
+    <div class="container-fluid">
+        <div class="row music-block-top">
+            <div class="col-xs-12 col-sm-6 music-left-block">
+                <div class="music-left-content">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/anca-gnaci.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Անցա Գնացի</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Ժողովրդական, <br>
+                                Գործիքավորում և մշակում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a download="YellowStones - Անցա Գնացի" name="asd" class="mp3-download" href="../sound/anca-gnaci.mp3">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Անցա Գնացի" class="wav-download" href="../sound/wav/10 - Anca Gnaci.wav">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Անցա Գնացի" class="text-download" href="../text/antsa-gnatsi.doc">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal1">
+                            View Lyrics
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 music-right-block">
+                <div class="music-right-content">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/erjankutyan-hetqerov.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Երջանկության Հետքերով</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան, <br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a download="YellowStones - Երջանկության Հետքերով" class="mp3-download" href="../sound/erjankutyan-hetqerov.mp3"
+                            name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Երջանկության Հետքերով" class="wav-download" href="../sound/wav/09%20-%20Erjankutyan%20Hetqerov.wav">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Երջանկության Հետքերով" class="text-download" href="../text/erjankutyan-hetqerov.doc">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal2">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row music-block-top">
+            <div class="col-xs-12 col-sm-6 music-left-block">
+                <div class="music-left-content">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/andundum.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Անդունդում</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան,<br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a download="YellowStones - Անդունդում" name="asd" class="mp3-download" href="../sound/andundum.mp3">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Անցա Գնացի" class="wav-download" href="../sound/wav/08%20-%20Andundum.wav">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a download="YellowStones - Անդունդում" class="text-download" href="../text/andundum.doc">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal3">
+                            View Lyrics
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 music-right-block">
+                <div class="music-right-content">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/erjankutyan-hetqerov.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Երջանկության Հետքերով</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան, <br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a  download="YellowStones - Երջանկության Հետքերով" name="asd" class="mp3-download" href="../sound/erjankutyan-hetqerov.mp3">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a  download="YellowStones - Երջանկության Հետքերով" class="wav-download" href="../sound/wav/09%20-%20Erjankutyan%20Hetqerov.wav">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a  download="YellowStones - Երջանկության Հետքերով" class="text-download" href="../text/erjankutyan-hetqerov.doc">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal2">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row music-block-top">
+            <div class="col-xs-12 col-sm-6 music-left-block">
+                <div class="music-left-content wow bounceInUp" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/anca-gnaci.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Անցա Գնացի</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Ժողովրդական, <br>
+                                Գործիքավորում և մշակում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/anca-gnaci.mp3"
+                           download="YellowStones - Անցա Գնացի" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/10 - Anca Gnaci.wav"
+                           download="YellowStones - Անցա Գնացի">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/antsa-gnatsi.doc"
+                           download="YellowStones - Անցա Գնացի">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal1">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 music-right-block">
+                <div class="music-right-content wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/erjankutyan-hetqerov.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Երջանկության Հետքերով</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան, <br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/erjankutyan-hetqerov.mp3"
+                           download="YellowStones - Երջանկության Հետքերով" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/09%20-%20Erjankutyan%20Hetqerov.wav"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/erjankutyan-hetqerov.doc"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal2">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row music-block-top">
+            <div class="col-xs-12 col-sm-6 music-left-block">
+                <div class="music-left-content wow bounceInUp" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/anca-gnaci.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Անցա Գնացի</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Ժողովրդական, <br>
+                                Գործիքավորում և մշակում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/anca-gnaci.mp3"
+                           download="YellowStones - Անցա Գնացի" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/10 - Anca Gnaci.wav"
+                           download="YellowStones - Անցա Գնացի">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/antsa-gnatsi.doc"
+                           download="YellowStones - Անցա Գնացի">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal1">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 music-right-block">
+                <div class="music-right-content wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/erjankutyan-hetqerov.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Երջանկության Հետքերով</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան, <br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/erjankutyan-hetqerov.mp3"
+                           download="YellowStones - Երջանկության Հետքերով" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/09%20-%20Erjankutyan%20Hetqerov.wav"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/erjankutyan-hetqerov.doc"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal2">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row music-block-top">
+            <div class="col-xs-12 col-sm-6 music-left-block">
+                <div class="music-left-content wow bounceInUp" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/anca-gnaci.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Անցա Գնացի</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Ժողովրդական, <br>
+                                Գործիքավորում և մշակում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/anca-gnaci.mp3"
+                           download="YellowStones - Անցա Գնացի" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/10 - Anca Gnaci.wav"
+                           download="YellowStones - Անցա Գնացի">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/antsa-gnatsi.doc"
+                           download="YellowStones - Անցա Գնացի">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal1">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 music-right-block">
+                <div class="music-right-content wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 music-text-block">
+                        <div style="background: rgba(0,0,0,0.15); height: 100%;">
+                            <audio class="music-audio" src="../sound/erjankutyan-hetqerov.mp3" controls preload="auto"></audio>
+                            <h4 class="music-text-h4">Երջանկության Հետքերով</h4>
+                            <p class="music-text">
+                                Երաժշտություն՝ Լևոն Սարգսյան, <br>
+                                Գործիքավորում՝ YellowStones
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4 download-block">
+
+                        <a class="mp3-download" href="../sound/erjankutyan-hetqerov.mp3"
+                           download="YellowStones - Երջանկության Հետքերով" name="asd">
+                            MP3<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="wav-download" href="../sound/wav/09%20-%20Erjankutyan%20Hetqerov.wav"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Wav<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <a class="text-download" href="../text/erjankutyan-hetqerov.doc"
+                           download="YellowStones - Երջանկության Հետքերով">
+                            Lyrics<i class="fa fa-download" aria-hidden="true"></i></a>
+                        <button type="button" class="btn btn-primary btn-lg music-lyrics-modal" data-toggle="modal"
+                                data-target="#myModal2">
+                            View Lyrics
+                        </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container-fluid myFooterFluid">
+        <div class="navbar navbar-inverse myFooter margin-top">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-5 col-md-push-7 social-block">
+                <a href="https://www.facebook.com/yellowstones.armenia/" target="_blank"><img class="social"
+                                                                                              src="../images/facebook.png"></a>
+                <a href="https://www.youtube.com/channel/UCXhkPtOSbcBA-iTY7kYkS3w" target="_blank"><img
+                        class="social"
+                        src="../images/youtube.png"></a>
+                <a href="https://www.instagram.com/yellowstones_band/" target="_blank"><img class="social"
+                                                                                            src="../images/instagram.png"></a>
+                <a href="https://soundcloud.com/yellowstones" target="_blank"><img class="social"
+                                                                                   src="../images/soundcloud.png"></a>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5 footer-left-block">
+                <div class="row left-block">
+                    <div class="col-xs-12">
+                        <a class="link" href="tel:+374 95090226">mob: +374 95090226</a>
+                    </div>
+                    <div class="col-xs-12">
+                        <a class="link" href="mailto:yellowstonesband@gmail.com">yellowstonesband@gmail.com</a>
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="copyright"><i class="fa fa-copyright" aria-hidden="true"></i> All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- modals -->
+
+<!-- Modal -->
+<div class="modal fade myTextModal" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="margin: 20px auto;">
+        <div class="modal-content" style="border-radius: 0;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Անցա Գնացի</h4>
+            </div>
+            <div class="modal-body">
+                                                <pre class="lyrics-pre">
+Որպես մի ծաղիկ՝ հողից դուրս ելա,
+Կյանքին ժպտացի, անցա - գնացի,
+Աշխարհը՝ որպես մի քնքուշ երազ՝
+Աչքովս տեսա, անցա - գնացի:
+
+
+[B]	Տեսա լավ ու վատ, տեսա համբերանք,
+Տեսա շատ կարիք, ահավոր զրկանք,
+Տեսա լավ մարդիկ, բարի աշխատանք,
+Բարևս տվի, անցա - գնացի:     x2
+
+
+Տեսա կառուցվող հոյակապ շենքեր,
+Տեսա մարդկանց մեջ գեղեցիկ մտքեր,
+Տեսա աշխատող պողպատե ձեռքեր,
+Լավին երգեցի, անցա - գնացի:
+
+
+[B]	Տեսա գեղանի, սիրուն աղջիկներ
+Ու նրանց գլխին՝ ոսկե պսակներ,
+Աղջիկների գովք անող գուսաններ,
+Ես էլ գովք արի, անցա - գնացի:    x2
+
+
+Աղջիկների գովք անող գուսաններ,
+Ես էլ գովք արի, անցա - գնացի:    x2
+[B]	Տեսա լավ ու վատ, տեսա համբերանք,
+Տեսա շատ կարիք, ահավոր զրկանք,
+Տեսա լավ մարդիկ, բարի աշխատանք,
+Բարևս տվի, անցա - գնացի:     x2
+
+
+Տեսա կառուցվող հոյակապ շենքեր,
+Տեսա մարդկանց մեջ գեղեցիկ մտքեր,
+Տեսա աշխատող պողպատե ձեռքեր,
+Լավին երգեցի, անցա - գնացի:
+
+
+[B]	Տեսա գեղանի, սիրուն աղջիկներ
+Ու նրանց գլխին՝ ոսկե պսակներ,
+Աղջիկների գովք անող գուսաններ,
+Ես էլ գովք արի, անցա - գնացի:    x2
+
+
+Աղջիկների գովք անող գուսաններ,
+Ես էլ գովք արի, անցա - գնացի:    x2
+
+                                                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade myTextModal" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="margin: 20px auto;">
+        <div class="modal-content" style="border-radius: 0;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Երջանկության Հետքերով</h4>
+            </div>
+            <div class="modal-body">
+                                                <pre class="lyrics-pre">
+
+
+Քեզ ասում են որն է ճանապարհը քո
+Դու լուռ հաշտվում ես, ու չես նայում այլ կողմ
+Քո աչքերը փակ են, քո շուրթերն են լուռ
+Քո մտքերն ապրում են ամենուր:
+
+
+Արի միասին քայլենք կամուրջներով
+Արի միասին ճախրենք անուրջներով
+Երջանկության հետքերով:
+
+
+Քեզ թելադրում են, քո ապագան
+Քեզ հմայում են, ու կործանում ներկան
+Դու դեռ մոլորված ես, դու փնտրում ես քեզ
+Աղմկոտ է լռությունդ, գիտեմ ես:
+
+
+Արի միասին քայլենք կամուրջներով
+Արի միասին ճախրենք անուրջներով
+Երջանկության հետքերով:
+                                                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modals -->
+
+
+
+<!-- Modal -->
+<div class="modal fade myTextModal" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="margin: 20px auto;">
+        <div class="modal-content" style="border-radius: 0;">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Անդունդում</h4>
+            </div>
+            <div class="modal-body">
+                                                <pre class="lyrics-pre">
+Երբ անդունդում էի, ու բղավում էի,
+Դու լսում էիր ձայնը իմ ու անտեսում
+Կրակների մեջ ես այրվում էի,
+Դու նայում էիր ինձ լուռ ու հեռանում
+Շնորհակալ եմ, որ ինձ չես նախընտրում...
+
+Կյանքիս մեծ մասը դեռ առջևում է,
+Բայց ամենալավ տարիները անցյալում
+Կամ մի գուցե ճիշտ հակառակն է,
+Մեծ մասն ապրել եմ, բայց դեռ լավն է առջևում
+Գնա հեռու, դա դու չես որոշում…
+
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+
+Մազից կախված մի մեծ հաճույք է,
+Կյանքը այս որ մենք ապրում ենք ու դժգոհում
+Իսկ դու անխելք, քեզ կործանում ես,
+Չհասկանալով թե ինչ է քեզ սպասվում
+Զարմանալի է, բայց դա քեզ չի հուզում…
+
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+
+Կյանքը հարատև չէ, շտապիր գործել
+Ոչինչել հրատև չէ, շտապիր ներել
+Կյանքը հարատև չէ, շտապիր ապրել
+Նա նույնպես հարատև չէ, շտապիր սիրել…
+
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+Ա  ա ա ա ա ա, ա ա ա ա ա, ա ա ա ա ա ա ա
+
+                                                </pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modals -->
+
+<script src="../js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/music-script.js"></script>
+</body>
+</html>
